@@ -1,18 +1,21 @@
 {
-  "CONTRACT_ADDRESS": "0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
-  "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
+  "CONTRACT_ADDRESS": "0x2E29F37c5942976202F95dF175DCc28DAd17D461",
+  "SCAN_LINK": "https://etherscan.io/token/0x2e29f37c5942976202f95df175dcc28dad17d461",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
   },
-  "NFT_NAME": "The Stripes NFT",
-  "SYMBOL": "TSNFT",
-  "MAX_SUPPLY": 992,
-  "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 4,
-  "GAS_LIMIT": 285000,
+  "NFT_NAME": "AI Dungeons and Dragons Genesis NFT",
+  "SYMBOL": "AIDND",
+  "MAX_SUPPLY": 894,
+  "WEI_COST": 25000000000000000,
+  "DISPLAY_COST": 0.025,
+  "GAS_LIMIT": 150000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/ai-dungeons-and-dragons-genesis",
+  "TWITTER": "Twitter",
+  "TWITTER_LINK": "https://twitter.com/cybergoblinwtf",
+  "DISCORD_LINK":"",
   "SHOW_BACKGROUND": true
 }

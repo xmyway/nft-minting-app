@@ -130,9 +130,9 @@ function App() {
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
     blockchain.smartContract.methods
-      .mint(blockchain.account, mintAmount)
+      .mint(mintAmount)
       .send({
-        gasLimit: String(totalGasLimit),
+        // gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: totalCostWei,
@@ -162,8 +162,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 50) {
-      newMintAmount = 50;
+    if (newMintAmount > 10) {
+      newMintAmount = 10;
     }
     setMintAmount(newMintAmount);
   };
@@ -247,7 +247,7 @@ function App() {
                 textAlign: "center",
               }}
             >
-              <StyledButton
+              {/* <StyledButton
                 onClick={(e) => {
                   window.open("/config/roadmap.pdf", "_blank");
                 }}
@@ -256,6 +256,16 @@ function App() {
                 }}
               >
                 Roadmap
+              </StyledButton> */}
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.TWITTER_LINK, "_blank");
+                }}
+              >
+                {CONFIG.TWITTER}
               </StyledButton>
               <StyledButton
                 style={{
@@ -295,10 +305,16 @@ function App() {
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
+
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   Excluding gas fees.
+                </s.TextDescription>
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  10 NFTs MAX per wallet, including free mint.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -419,16 +435,6 @@ function App() {
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
-          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
