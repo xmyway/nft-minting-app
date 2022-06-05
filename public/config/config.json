@@ -2,9 +2,9 @@
   "CONTRACT_ADDRESS": "0x02960F274d8978c4C69eBFdE4BD68f3e3B790e51",
   "SCAN_LINK":"https://etherscan.io/token/0x02960f274d8978c4c69ebfde4bd68f3e3b790e51",
   "NETWORK": {
-    "NAME": "Rinkeby",
+    "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "Round Table Knights NFT",
   "SYMBOL": "RTK",
@@ -13,7 +13,7 @@
   "DISPLAY_COST": 0.003,
   "GAS_LIMIT": 150000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/xxx",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/round-table-knights",
   "TWITTER": "Twitter",
   "TWITTER_LINK": "",
   "DISCORD_LINK":"",
