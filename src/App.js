@@ -302,8 +302,14 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
+                  7777 Pixel Round Table Knights for minting! 1 FREE mint per wallet
+                </s.TextTitle>
+                <s.SpacerXSmall />
+                <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL} after the free mint.
+                  {CONFIG.NETWORK.SYMBOL} after the free mint
                 </s.TextTitle>
                 <s.SpacerXSmall />
 

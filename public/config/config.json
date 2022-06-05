@@ -1,6 +1,6 @@
 {
   "CONTRACT_ADDRESS": "0x02960F274d8978c4C69eBFdE4BD68f3e3B790e51",
-  "SCAN_LINK":"https://rinkeby.etherscan.io/token/0x02960f274d8978c4c69ebfde4bd68f3e3b790e51",
+  "SCAN_LINK":"https://etherscan.io/token/0x02960f274d8978c4c69ebfde4bd68f3e3b790e51",
   "NETWORK": {
     "NAME": "Rinkeby",
     "SYMBOL": "ETH",
@@ -8,7 +8,7 @@
   },
   "NFT_NAME": "Round Table Knights NFT",
   "SYMBOL": "RTK",
-  "MAX_SUPPLY": 6666,
+  "MAX_SUPPLY": 7777,
   "WEI_COST": 3000000000000000,
   "DISPLAY_COST": 0.003,
   "GAS_LIMIT": 150000,
