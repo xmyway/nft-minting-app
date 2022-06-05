@@ -6,16 +6,16 @@
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "AI Dungeons and Dragons Genesis NFT",
-  "SYMBOL": "AIDND",
-  "MAX_SUPPLY": 894,
-  "WEI_COST": 25000000000000000,
-  "DISPLAY_COST": 0.025,
+  "NFT_NAME": "Round Table Knights NFT",
+  "SYMBOL": "RTK",
+  "MAX_SUPPLY": 6666,
+  "WEI_COST": 3000000000000000,
+  "DISPLAY_COST": 0.003,
   "GAS_LIMIT": 150000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/ai-dungeons-and-dragons-genesis",
   "TWITTER": "Twitter",
-  "TWITTER_LINK": "https://twitter.com/cybergoblinwtf",
+  "TWITTER_LINK": "",
   "DISCORD_LINK":"",
   "SHOW_BACKGROUND": true
 }

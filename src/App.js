@@ -78,13 +78,13 @@ export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
   border: 4px dashed var(--secondary);
   background-color: var(--accent);
-  border-radius: 100%;
-  width: 200px;
+  border-radius: 80%;
+  width: 100px;
   @media (min-width: 900px) {
     width: 250px;
   }
   @media (min-width: 1000px) {
-    width: 300px;
+    width: 200px;
   }
   transition: width 0.5s;
 `;
@@ -199,14 +199,14 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.gif" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 100 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding:100 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
@@ -303,7 +303,7 @@ function App() {
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
+                  {CONFIG.NETWORK.SYMBOL} after the free mint.
                 </s.TextTitle>
                 <s.SpacerXSmall />
 
@@ -315,7 +315,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  10 NFTs MAX per wallet, including free mint.
+                  10 NFTs MAX per wallet.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
