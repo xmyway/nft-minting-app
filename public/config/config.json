@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x2E29F37c5942976202F95dF175DCc28DAd17D461",
-  "SCAN_LINK": "https://etherscan.io/token/0x2e29f37c5942976202f95df175dcc28dad17d461",
+  "CONTRACT_ADDRESS": "0x02960F274d8978c4C69eBFdE4BD68f3e3B790e51",
+  "SCAN_LINK":"https://rinkeby.etherscan.io/token/0x02960f274d8978c4c69ebfde4bd68f3e3b790e51",
   "NETWORK": {
-    "NAME": "Ethereum",
+    "NAME": "Rinkeby",
     "SYMBOL": "ETH",
-    "ID": 1
+    "ID": 4
   },
   "NFT_NAME": "Round Table Knights NFT",
   "SYMBOL": "RTK",
@@ -13,7 +13,7 @@
   "DISPLAY_COST": 0.003,
   "GAS_LIMIT": 150000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/ai-dungeons-and-dragons-genesis",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/xxx",
   "TWITTER": "Twitter",
   "TWITTER_LINK": "",
   "DISCORD_LINK":"",
