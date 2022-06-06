@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x86Cb21f2a0620C75f18B19843C5813C4BFa97d07",
-  "SCAN_LINK":"https://rinkeby.etherscan.io/token/0x86cb21f2a0620c75f18b19843c5813c4bfa97d07",
+  "CONTRACT_ADDRESS": "0x3d7bAcC0dea5B0B2E65b9cB25540ABC612e6f61e",
+  "SCAN_LINK":"https://etherscan.io/token/0x3d7bAcC0dea5B0B2E65b9cB25540ABC612e6f61e",
   "NETWORK": {
-    "NAME": "Rinkeby",
+    "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "Wanna Help but I SUCK NFT",
   "SYMBOL": "IHBS",
