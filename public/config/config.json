@@ -1,21 +1,21 @@
 {
-  "CONTRACT_ADDRESS": "0x02960F274d8978c4C69eBFdE4BD68f3e3B790e51",
-  "SCAN_LINK":"https://etherscan.io/token/0x02960f274d8978c4c69ebfde4bd68f3e3b790e51",
+  "CONTRACT_ADDRESS": "0x86Cb21f2a0620C75f18B19843C5813C4BFa97d07",
+  "SCAN_LINK":"https://rinkeby.etherscan.io/token/0x86cb21f2a0620c75f18b19843c5813c4bfa97d07",
   "NETWORK": {
-    "NAME": "Ethereum",
+    "NAME": "Rinkeby",
     "SYMBOL": "ETH",
-    "ID": 1
+    "ID": 4
   },
-  "NFT_NAME": "Round Table Knights NFT",
-  "SYMBOL": "RTK",
-  "MAX_SUPPLY": 7777,
+  "NFT_NAME": "Wanna Help but I SUCK NFT",
+  "SYMBOL": "IHBS",
+  "MAX_SUPPLY": 9999,
   "WEI_COST": 3000000000000000,
   "DISPLAY_COST": 0.003,
   "GAS_LIMIT": 150000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/round-table-knights",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/",
   "TWITTER": "Twitter",
-  "TWITTER_LINK": "https://twitter.com/hafissmurai",
+  "TWITTER_LINK": "https://twitter.com/IHBS2022",
   "DISCORD_LINK":"",
   "SHOW_BACKGROUND": true
 }

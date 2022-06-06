@@ -78,7 +78,6 @@ export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
   border: 4px dashed var(--secondary);
   background-color: var(--accent);
-  border-radius: 80%;
   width: 100px;
   @media (min-width: 900px) {
     width: 250px;
@@ -223,16 +222,16 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.gif" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
+        {/* <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        </a>
+        </a> */}
         
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding:100 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/example1.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -326,7 +325,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  7777 Pixel Round Table Knights for minting! 1 FREE mint per wallet
+                  I Wanna Help but I SUCK... 9999 in total, 1 FREE mint per wallet
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextTitle
@@ -462,7 +461,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"/config/images/example2.png"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
