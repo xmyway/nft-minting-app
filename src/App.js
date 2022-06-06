@@ -282,7 +282,7 @@ function App() {
               >
                 Roadmap
               </StyledButton> */}
-              {/* <StyledButton
+              <StyledButton
                 style={{
                   margin: "5px",
                 }}
@@ -291,7 +291,7 @@ function App() {
                 }}
               >
                 {CONFIG.TWITTER}
-              </StyledButton> */}
+              </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
