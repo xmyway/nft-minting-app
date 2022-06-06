@@ -6,16 +6,16 @@
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "Round Table Knights NFT",
-  "SYMBOL": "RTK",
-  "MAX_SUPPLY": 7777,
+  "NFT_NAME": "Wanna Help but I SUCK NFT",
+  "SYMBOL": "IHBS",
+  "MAX_SUPPLY": 9999,
   "WEI_COST": 3000000000000000,
   "DISPLAY_COST": 0.003,
   "GAS_LIMIT": 150000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/round-table-knights",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/",
   "TWITTER": "Twitter",
-  "TWITTER_LINK": "https://twitter.com/hafissmurai",
+  "TWITTER_LINK": "https://twitter.com/IHBS2022",
   "DISCORD_LINK":"",
   "SHOW_BACKGROUND": true
 }
