@@ -325,7 +325,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  I Wanna Help but I SUCK... 9999 in total, 1 FREE mint per wallet
+                  I Wanna Help but I SUCK... 5000 in total, 1 FREE mint per wallet
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextTitle
