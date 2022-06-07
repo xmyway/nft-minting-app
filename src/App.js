@@ -326,7 +326,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  7777 Pixel Round Table Knights for minting! 1 FREE mint per wallet
+                  6666 Goblin Graveyardz, the ultimate home to gobs! 1 FREE mint per wallet
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextTitle
