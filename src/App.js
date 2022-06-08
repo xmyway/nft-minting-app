@@ -223,7 +223,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.gif" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.png" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -232,7 +232,7 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding:100 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/cats_gif.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -326,26 +326,29 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  6666 Goblin Graveyardz, the ultimate home to gobs! 1 FREE mint per wallet
+                  Every Gob needs its own graveyards FOR SURE
+                </s.TextTitle>
+                <s.SpacerXSmall />
+
+                <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                    1 FREE mint per wallet
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
+                  Additional {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL} after the free mint
                 </s.TextTitle>
                 <s.SpacerXSmall />
 
+
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees.
-                </s.TextDescription>
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  10 NFTs MAX per wallet.
+                  10 NFTs MAX per wallet
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -462,7 +465,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"/config/images/goblin.gif"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>

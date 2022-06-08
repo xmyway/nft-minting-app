@@ -10,7 +10,7 @@
   "SYMBOL": "GG",
   "MAX_SUPPLY": 6666,
   "WEI_COST": 5000000000000000,
-  "DISPLAY_COST": 0.003,
+  "DISPLAY_COST": 0.005,
   "GAS_LIMIT": 150000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/",
