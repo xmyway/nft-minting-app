@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x02960F274d8978c4C69eBFdE4BD68f3e3B790e51",
-  "SCAN_LINK":"https://etherscan.io/token/0x02960f274d8978c4c69ebfde4bd68f3e3b790e51",
+  "CONTRACT_ADDRESS": "0x8De894ebe3B5E87665FeBA61c0a90435415bBBCf",
+  "SCAN_LINK":"https://etherscan.io/token/0x8De894ebe3B5E87665FeBA61c0a90435415bBBCf",
   "SCAN_TYPE": "ETᕼEᖇᔕᑕᗩᑎ",
   "NETWORK": {
     "NAME": "Ethereum",
@@ -10,11 +10,11 @@
   "NFT_NAME": "Goblin Graveyard NFT",
   "SYMBOL": "GG",
   "MAX_SUPPLY": 6666,
-  "WEI_COST": 5000000000000000,
-  "DISPLAY_COST": 0.005,
+  "WEI_COST": 3000000000000000,
+  "DISPLAY_COST": 0.003,
   "GAS_LIMIT": 150000,
   "MARKETPLACE": "OᑭEᑎᔕEᗩ",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/goblin-graveyard",
   "TWITTER": "TᗯITTEᖇ",
   "TWITTER_LINK": "https://twitter.com/MoulaSyad",
   "DISCORD_LINK":"",
