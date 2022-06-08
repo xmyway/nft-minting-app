@@ -1,6 +1,7 @@
 {
   "CONTRACT_ADDRESS": "0x02960F274d8978c4C69eBFdE4BD68f3e3B790e51",
   "SCAN_LINK":"https://etherscan.io/token/0x02960f274d8978c4c69ebfde4bd68f3e3b790e51",
+  "SCAN_TYPE": "ETᕼEᖇᔕᑕᗩᑎ",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",

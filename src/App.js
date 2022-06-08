@@ -293,6 +293,17 @@ function App() {
                   margin: "5px",
                 }}
                 onClick={(e) => {
+                  window.open(CONFIG.SCAN_LINK, "_blank");
+                }}
+              >
+                {CONFIG.SCAN_TYPE}
+              </StyledButton>
+
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
                   window.open(CONFIG.TWITTER_LINK, "_blank");
                 }}
               >
