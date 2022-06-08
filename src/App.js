@@ -99,7 +99,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
+  const [feedback, setFeedback] = useState(`ᑕᒪIᑕK ᗷᑌY TO ᗰIᑎT YOᑌᖇ ᑎᖴT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -139,13 +139,13 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("ᔕOᖇᖇY, ᔕOᗰETᕼIᑎG ᗯEᑎT ᗯᖇOᑎG ᑭᒪEᗩᔕE TᖇY ᗩGᗩIᑎ ᒪᗩTEᖇ.");
         setClaimingNft(false);
       })
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `ᗯOᗯ, TᕼE ${CONFIG.NFT_NAME} Iᔕ YOᑌᖇᔕ! GO ᐯIᔕIT OᑭEᑎᔕEᗩ.IO TO ᐯIEᗯ IT.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -163,13 +163,13 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("ᔕOᖇᖇY, ᔕOᗰETᕼIᑎG ᗯEᑎT ᗯᖇOᑎG ᑭᒪEᗩᔕE TᖇY ᗩGᗩIᑎ ᒪᗩTEᖇ.");
         setClaimingNft(false);
       })
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `ᗯOᗯ, TᕼE ${CONFIG.NFT_NAME} Iᔕ YOᑌᖇᔕ! GO ᐯIᔕIT OᑭEᑎᔕEᗩ.IO TO ᐯIEᗯ IT.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -457,7 +457,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "BUSY" : "BUY"}
+                        {claimingNft ? "BUSY" : "ᗷᑌY"}
                       </StyledButton>
                     </s.Container>
                     <s.SpacerSmall />
@@ -471,7 +471,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "BUSY" : "Claim Free "}
+                        {claimingNft ? "BUSY" : "ᑕᒪᗩIᗰ ᖴᖇEE"}
                       </StyledButton>
                     </s.Container>
                   </>
