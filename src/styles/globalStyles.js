@@ -57,6 +57,13 @@ export const TextTitle = styled.p`
   line-height: 1.6;
 `;
 
+export const TextLogo = styled.p`
+  color: var(--primary-text);
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.6;
+`;
+
 export const TextSubTitle = styled.p`
   color: var(--primary-text);
   font-size: 18px;

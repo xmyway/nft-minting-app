@@ -225,9 +225,15 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg3.png" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
-          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        </a>
+          <s.TextLogo
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+          █║▌║ GOᗷᒪIᑎ GᖇᗩᐯEYᗩᖇᗪ ║▌║█
+                                                                                                                                                            
+                                                                                                                                                                      
+          </s.TextLogo>
+          {/* <StyledLogo alt={"logo"} src={"/config/images/logo.png"} /> */}
+
         
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding:100 }} test>
@@ -326,21 +332,21 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  𝔼𝕧𝕖𝕣𝕪 𝔾𝕠𝕓 𝕟𝕖𝕖𝕕𝕤 𝕚𝕥𝕤 𝕠𝕨𝕟 𝕘𝕣𝕒𝕧𝕖𝕪𝕒𝕣𝕕 𝔽𝕆ℝ 𝕊𝕌ℝ𝔼
+                  EᐯEᖇY GOᗷ ᑎEEᗪᔕ ᕼIᔕ/ᕼEᖇ Oᗯᑎ GᖇᗩᐯEYᗩᖇᗪ ᖴOᖇ ᔕᑌᖇᖇᖇᖇᖇᖇE
                 </s.TextTitle>
                 <s.SpacerXSmall />
 
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                    ₁ Fᵣₑₑ ₘᵢₙₜ ₚₑᵣ wₐₗₗₑₜ
+                    1 ᖴᖇEE ᗰIᑎT ᑭEᖇ ᗯᗩᒪᒪET
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Additional {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL} after the free mint
+                  ᗩᗪᗪITIOᑎᗩᒪ {CONFIG.SYMBOL} ᑕOᔕTᔕ {CONFIG.DISPLAY_COST}{" "}
+                  {CONFIG.NETWORK.SYMBOL} Iᖴ YOᑌ ᗯᗩᑎᑎᗩ ᗪIG ᗰOᖇE GᖇᗩᐯEᔕ
                 </s.TextTitle>
                 <s.SpacerXSmall />
 
@@ -348,7 +354,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  10 NFTs MAX per wallet
+                  10 ᑎᖴTᔕ ᗰᗩ᙭ ᑭEᖇ ᗯᗩᒪᒪET
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -360,7 +366,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      ᑕOᑎᑎEᑕT TO TᕼE {CONFIG.NETWORK.NAME} ᑎETᗯOᖇK
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
@@ -370,7 +376,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      ᑕOᑎᑎEᑕT
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -478,9 +484,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            ᑭᒪEᗩᔕE ᗰᗩKE ᔕᑌᖇE YOᑌ ᗩᖇE ᑕOᑎᑎEᑕTEᗪ TO TᕼE ᖇIGᕼT ᑎETᗯOᖇK (
+            {CONFIG.NETWORK.NAME} ᗰᗩIᑎᑎET) ᗩᑎᗪ TᕼE ᑕOᖇᖇEᑕT ᗩᗪᗪᖇEᔕᔕ. ᑭᒪEᗩᔕE ᑎOTE:
+            OᑎᑕE YOᑌ ᗰᗩKE TᕼE ᑭᑌᖇᑕᕼᗩᔕE, YOᑌ ᑕᗩᑎᑎOT ᑌᑎᗪO TᕼIᔕ ᗩᑕTIOᑎ.
           </s.TextDescription>
           <s.SpacerSmall />
         </s.Container>
