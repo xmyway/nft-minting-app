@@ -326,14 +326,14 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Every Gob needs its own graveyards FOR SURE
+                  𝔼𝕧𝕖𝕣𝕪 𝔾𝕠𝕓 𝕟𝕖𝕖𝕕𝕤 𝕚𝕥𝕤 𝕠𝕨𝕟 𝕘𝕣𝕒𝕧𝕖𝕪𝕒𝕣𝕕 𝔽𝕆ℝ 𝕊𝕌ℝ𝔼
                 </s.TextTitle>
                 <s.SpacerXSmall />
 
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                    1 FREE mint per wallet
+                    ₁ Fᵣₑₑ ₘᵢₙₜ ₚₑᵣ wₐₗₗₑₜ
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextTitle
