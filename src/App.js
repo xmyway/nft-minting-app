@@ -377,7 +377,9 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      ᑕOᑎᑎEᑕT TO TᕼE {CONFIG.NETWORK.NAME} ᑎETᗯOᖇK
+                      {/* ᑕOᑎᑎEᑕT TO TᕼE {CONFIG.NETWORK.NAME} ᑎETᗯOᖇK */}
+                      OᑎᒪY GOᗷᒪIᑎ KᑎOᗯᔕ, ᗪEᗩTᕼ Iᔕ ᑎEᐯEᖇ TᕼE Eᑎᗪ Oᖴ TᕼE ᔕTOᖇY....
+
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
